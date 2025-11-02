@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    margin-top: -4%;
+
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkgreen;
+    margin-top: -3%;
+    transition: .2s ease;
+    display: flex;
+}
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+.info h3{
+    text-align: justify;
+}
+.info span{
+    color: rgb(230,104,59);
+}
+.info h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+.info h3{
+    font-style: oblique;
+    font-family: serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.info{
+    margin: auto;
+    padding: 60px;
+}
